@@ -1,0 +1,44 @@
+@import '../../styles/settings.scss';
+
+.root {
+    position: absolute;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.col {
+    margin: 0;
+    padding: 0; 
+}
+
+.content{ 
+    background-color: $contentColor;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.sideRow{
+    flex-direction: row;
+}
+
+.quickLinks{
+    background-color: pink;
+    height: 100vh;
+    width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .dissapear{ 
+        display: none;
+    }
+}
