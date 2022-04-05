@@ -3,3 +3,22 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
+
+// fonts //
+
+@font-face {
+    font-family: 'Monaco';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monaco'), url('../fonts/Monaco.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/Consolas.ttf');
+}
+@font-face {
+    font-family: 'Consolab';
+    src: url('../fonts/consolaz.ttf');
+}
