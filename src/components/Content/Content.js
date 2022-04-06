@@ -12,7 +12,8 @@ const Content = () => {
             <Col md={1}><span className={styles.gray}>1</span></Col>
             <Col>
             <p>
-              <span className={styles.purple}>import </span><span className={styles.blue}>React</span><span className={styles.purple}> from</span><span className={styles.orange}> 'react'</span><span className={styles.white}>;</span>
+              <span className={styles.purple}>import </span><span className={styles.blue}>React</span><span className={styles.purple}> from</span><span className={styles.orange}> 'react'</span><span className={styles.white}>;</span><br></br><br></br>
+              <span className={styles.blue}>const </span><span className={styles.yellow}>AgiSkorska </span><span className={styles.white}> = () </span><span className={styles.blue}> =&gt;</span><span className={styles.white}> &#123;</span>
             </p>
             </Col>
         </Row>

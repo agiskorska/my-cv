@@ -4,3 +4,12 @@
     background-color: $navBackground;
     height: $navHeight;
 }
+
+.tab{
+    color: $white;
+    border-right: rgba(0, 0, 0, 0.301) solid 1px;
+    height: 100%;
+    max-width: fit-content;
+    padding: 1% 2%;
+    font-size: 14px;
+}
